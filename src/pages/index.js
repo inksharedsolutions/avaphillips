@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 
 //components
@@ -8,8 +7,6 @@ import Navigation from '../components/nav';
 import Banner from '../components/banner';
 import Book from '../components/index-book';
 import Author from '../components/index-author';
-import Image from "../components/image"
-import SEO from "../components/seo"
 
 const IndexPage = (props) => (
   <Layout>
