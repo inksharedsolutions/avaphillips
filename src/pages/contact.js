@@ -83,8 +83,9 @@ const Contact = (props)=>{
 
                             <div className="columns">
                                 <div className="column is-full" id="textAreaContainer">
-                                    <label> Message	</label>
+                                    <label htmlFor="message"> Message	</label>
                                     <textarea type="text" name='message' 
+                                        id="message"
                                         className="textArea"
                                         placeholder='Message'
                                         required />
@@ -105,17 +106,17 @@ const Contact = (props)=>{
                         <div className="info-section-address">
                             <span>
                                 <h5>Address</h5>
-                                831 N Tatnall Street, Suite M #188, Wilmington, DE 19801
+                                <p>831 N Tatnall Street, Suite M #188, Wilmington, DE 19801</p>
                             </span>
 
                             <span>
                                 <h5>Phone</h5>
-                                <a href="tel:8883237009">888-323-7009</a>
+                                <a href="tel:8883237009" style={{color: 'black'}}>888-323-7009</a>
                             </span>
 
                             <span>
                                 <h5>Email</h5>
-                                <a href="mailto:publish@stratton-press.com">publish@stratton-press.com</a>
+                                <a href="mailto:publish@stratton-press.com" style={{color: 'black'}}>publish@stratton-press.com</a>
                             </span>
                         </div>
                     </div>

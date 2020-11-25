@@ -12,7 +12,7 @@ const Banner = ()=>{
     
                         <div className="right-col banner-img">
 
-                            <div className="wrapper banner-text">
+                            <div className="banner-text">
                                 <h1>
                                     Tales from the Zookeeper's Daughter
                                 </h1>

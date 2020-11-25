@@ -13,7 +13,7 @@ const ATB = (props)=>{
                  <Helmet title="Author | Ava Phillips"/>
 		 		<Nav pathExt={props.path}/>
                  <Banner 
-                 spanFirst={`About The`} 
+                //  spanFirst={`About The`} 
                  contextHeading={`Author`}/>
                   
 		 		<div className="container">
@@ -42,7 +42,7 @@ const ATB = (props)=>{
                             <p>
                                 I grew up in Shelby North Carolina. I wrote poems as a child.
                                 I've always dreamt of being an author. I owe my gift of writing
-                                to God he has blessed me so much. God family and country come first at me.
+                                to God he has blessed me so much. God family and country come first to me.
                                 I write books to teach children life lessons. In a fun way that brings a
                                 smile to their faces.
                             </p>

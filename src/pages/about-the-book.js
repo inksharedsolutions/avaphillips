@@ -25,7 +25,7 @@ const ATB = (props)=>{
                  <Helmet title="Books | Ava Phillips"/>
 		 		<Nav />
 		 		<Banner
-                    spanFirst={`About The`}
+                    // spanFirst={`About The`}
                     contextHeading={`Books`}
                  />
 

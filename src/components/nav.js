@@ -4,9 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import Logo from '../static/logo/AVA.png'
 
-import MenuBar from '../static/icons/menu-bar.png';
-import Close from '../static/icons/close.png';
-
 const Nav = (props) => {
 
     const [toggled, setToggled] = useState(false);

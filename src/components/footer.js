@@ -28,7 +28,8 @@ const Footer = ()=>{
 
                             <li>
                                 <a href="https://www.facebook.com/StrattonPressInc/"
-                                target="_blank">
+                                target="_blank"
+                                rel="noreferrer">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faFacebook} />
@@ -38,7 +39,8 @@ const Footer = ()=>{
                             <li>
                                 <a 
                                     target="_blank"
-                                    href="https://twitter.com/strattonpress/">
+                                    href="https://twitter.com/strattonpress/"
+                                    rel="noreferrer">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faTwitter} />
@@ -48,7 +50,8 @@ const Footer = ()=>{
                             <li>
                                 <a  
                                     target="_blank"
-                                    href="https://www.instagram.com/strattonpress/">
+                                    href="https://www.instagram.com/strattonpress/"
+                                    rel="noreferrer">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faInstagram} />
@@ -58,7 +61,8 @@ const Footer = ()=>{
                             <li>
                                 <a 
                                     target="_blank"
-                                    href="https://www.goodreads.com/book/show/54499809-tales-from-the-zookeeper-s-daughter">
+                                    href="https://www.goodreads.com/book/show/54499809-tales-from-the-zookeeper-s-daughter"
+                                    rel="noreferrer">
                                     <FontAwesomeIcon 
                                         className='font-awesome'
                                         icon={faGoodreads} />
