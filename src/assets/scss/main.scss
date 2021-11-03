@@ -79,8 +79,12 @@ button{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: auto;
-    margin: 0 5%;
+    margin: 0;
     align-items: center;
+    .grid-child{
+        padding: auto 20px;
+    }
+
 }
 
 .grid-template-four-col{

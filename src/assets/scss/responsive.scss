@@ -8,6 +8,13 @@
             height: auto;
         }
     }
+    .container-gt{
+        margin: 0 40px;
+        .grid-child {
+            margin: 10px;
+        }
+    }
+    
 }
 
 @media screen and ( max-width : 1350px){
@@ -31,7 +38,14 @@
         }
     }
 }
-
+@media screen and ( max-width : 1200px){
+    .container-gt{
+        margin: 0 40px;
+        .grid-child {
+            margin: 10px;
+        }
+    }
+}
 @media screen and ( min-width : 1200px){ 
     body{
         font-size: 18px;
@@ -46,9 +60,12 @@
         }
         
     }
+    
+        
+    
 }
 
-@media screen and ( max-width : 990px){
+@media screen and ( max-width : 670px){
 
     //changes
     /*nav*/
@@ -529,8 +546,24 @@
         
     }
 }
+@media screen and ( max-width : 530px){
+    .container-gt{
+        margin: 0 40px;
+        .grid-child{
+            margin: 10px;
+        }
+    }
+        
 
+}
 @media screen and (max-width: 450px){
+    .container-gt{
+        margin: 0 20px;
+        .grid-child{
+            margin: 10px;
+        }
+    }
+
 
     .ant-card-meta-title{
         font-size: 24px !important;
@@ -590,5 +623,21 @@
             width: 100%;
         }
     } 
+    .grid-template-four-col{
+        grid-template-columns: 1fr 1fr ;
+    }
 
+}
+@media screen and (max-width: 280px){
+    .container-gt {
+        margin: 0 0px;
+        .grid-child {
+            margin: 20px;}
+    }
+    .grid-template-four-col{
+        grid-template-columns: 1fr 1fr;
+    }
+    .upper-main #wrapper-two-books {
+        margin: 5% 5%;
+    }
 }
