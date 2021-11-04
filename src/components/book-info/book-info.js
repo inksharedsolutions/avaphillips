@@ -42,6 +42,9 @@ const BookInfo = (props)=>{
                             <li><a rel="noopener noreferrer" target="_blank" href={props.data.paperback.booksamillion}>Books A Million</a></li>
                         </nav>
                     </section>
+        
+
+                    
 
 
                 </div>	

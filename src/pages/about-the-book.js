@@ -6,6 +6,7 @@ import BookInfo from '../components/book-info/book-info'
 import { DiscussionEmbed } from "disqus-react"
 import FrontBook1 from '../static/books/misha-and-phoebe.png'
 import FrontBook2 from '../static/books/alex-and-kisses.png'
+import FrontBook3 from '../static/books/1.png'
 import { Helmet } from 'react-helmet'
 
 const ATB = (props)=>{
@@ -100,7 +101,66 @@ const ATB = (props)=>{
                                         booksamillion:'https://www.booksamillion.com/p/Tales-from-Zookeepers-Daughter/Ava-Phillips/9781648950421?id=8058437897017',
                                     }
                                 }} 
-                            />
+                                />
+
+<div className="columns book-container-ft">
+                <div className="column">
+                    <div className="bookImgContainer">
+                        <img alt="main-book" src= {FrontBook3}/>
+                    </div>
+                </div>
+
+                <div className="column" >
+                    <section className="contentBook">
+
+                        <h1>Tales from the Zookeeper's Daughter</h1>
+                        <p className="sub-heading">
+                            The Long Journey
+                        </p>
+                        
+                        {/* <span>{props.data.spanTitle}</span> */}
+
+            
+                        <div className="content-body">
+                             <p>
+                                       This book is about struggles and having the courage to face them.
+                                    </p> 
+                                    
+                                    <p>
+                                        It teaches children about compassion love, friendships, and family.
+                                    </p>
+
+                                    <p>
+                                        Ava lives with her husband and five dogs in Lincolnton, North Carolina. She loves writing children's book to teach them about life experiences.
+                                    </p>
+                                    <p>
+                                        God, Family, and  country mean everything to her. She loves helping people anyway she can.
+                                    </p>
+
+
+
+                        </div>
+                    </section>
+
+
+                    <section className="fullSection">
+                        <nav className="booklinkBlocks">
+                            <span className ="comingsoon">Coming Soon </span>
+                            
+                        </nav>
+
+                        
+                    </section>
+        
+
+                    
+
+
+                </div>	
+            </div>
+                        
+                                
+                            
                             <div className="commentSection">
                                 <div id="disqus_thread">
                                     <DiscussionEmbed {...disqusConfig} />
