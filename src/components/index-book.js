@@ -36,6 +36,32 @@ const MidBook = (props)=>{
                         </div>
 
                     </div>
+
+                    <div className='reviews-content'>
+                        <hr />	
+
+                        <blockquote>
+                            <h3>
+                                Toby Berry
+                                <br/>
+                                <span>
+                                    There are a lot of dangers out there...
+                                </span>
+                            </h3>
+                            <br/>
+                            This remarkable children's story comes across as a blend of classic tales like <i>Charlotte's Web</i> and &nbsp;
+                            <i>Are you My Mother</i> but focused on modern thematic concerns. Misha and Phoebe are a tarantula and a 
+                            bunny who are looking for Misha's mother. Their tale is partially about habitat without ever using the 
+                            word. Misha finds herself in Wyoming, freezing and miserable thanks to modern man and the accidental 
+                            transport of species...
+                            <a 
+                                href='https://www.theusreview.com/reviews-1/Tales-from-the-Zookeepers-Daughter-The-Travels-of-Misha-and-Phoebe-by-Ava-Phillips.html#.Yck-XmhByUm'
+                                target='_blank'
+                                rel='noopener noreferrer'>Read More</a>
+                        </blockquote>
+
+                        <hr />	
+                    </div>
                 </div>
             </section>
         </>

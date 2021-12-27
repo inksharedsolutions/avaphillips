@@ -25,7 +25,7 @@ const MidMain = () => {
                 <div className="container-gt separator-line">
                     <h1>Featured</h1>
                     <p className="middle-params">
-                        Rick Michaels has been featured numerous times on...
+                        Ava Phillips has been featured numerous times on...
                     </p>
 
                     <div className="grid-template-four-col" id="logos-col">
